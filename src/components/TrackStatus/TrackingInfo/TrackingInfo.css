@@ -1,0 +1,39 @@
+.tracking-info {
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .tracking-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+  }
+  
+  .tracking-number,
+  .tracking-status,
+  .departure-arrival,
+  .customer-details,
+  .driver-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .tracking-number span,
+  .tracking-status span,
+  .departure-arrival span,
+  .customer-details span,
+  .driver-info span {
+    font-weight: bold;
+  }
+  
+  .driver-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+
+  
