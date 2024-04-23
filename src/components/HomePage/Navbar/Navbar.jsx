@@ -3,10 +3,8 @@ import "./Navbar.css";
 import PayBill from "../../PayBill/PayBill"; // นำเข้า PayBill component
 import Profile from "../../Profile/Profile";
 import TrackingInfo from "../../TrackStatus/TrackingInfo/TrackingInfo";
-import Settings from "../../Settings/Settings";
 import Employee from "../../Employee/Employee";
 import Sidebar from "../../Settings/Sidebar/Sidebar";
-import ChangePassword from "../../Settings/ChangePassword/ChangePassword";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +15,6 @@ const Navbar = () => {
   const [showSettings, setShowSettings] = useState(false); // สถานะสำหรับแสดง/ซ่อน Settings
   const [showEmployee, setShowEmployee] = useState(false); // สถานะสำหรับแสดง/ซ่อน Employee
   const [showSidebar, setShowSidebar] = useState(false); // สถานะสำหรับแสดง/ซ่อน Sidebar
-  const [showChangePassword, setChangePassword] = useState(false); // สถานะสำหรับแสดง/ซ่อน Sidebar
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
